@@ -1,2 +1,3 @@
-# Mine-Prosjekter
-Alt av prosjekter og arbeid som jeg har lagd gjennom IT-Utvikling
+En skobutikk hvor du kan kjøpe sko
+Html, JS og CSS kode for nettside
+Bilder og ressurser 
