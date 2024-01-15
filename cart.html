@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/ab86e6e481.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- Menu bar -->
+
+  <header>
+    <div class="logo-box"><a class="Homepage--" href="index.html" class="logo">
+        <img class="logo-size" src="bilder/Shoehub-AS.png" alt=""></a></div>
+    <div class="header-menu">
+      <a class="Homepage--" href="men.html">Men</a>
+      <a class="Homepage--" href="women.html">Women</a>
+      <a class="Homepage--" href="junior.html">Junior</a>
+    </div>
+
+    <div class="icons">
+      <a class="social--" href=""><i class="fa fa-heart"></i></a>
+      <a class="social--" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+    </div>
+  </header>
+
+  <!-- This is where the products are to be added in the cart  -->
+
+  <div class="cart-box">
+    <h1 class="cart-title">CART</h1>
+  </div>
+
+  <!-- This button show's your added products to the shopping cart -->
+  <div class="cart-buttons">
+    <button class="show-cart" onclick="showCart()">SHOW CART</button>
+
+    <!-- This button removes the products from shopping cart -->
+
+    <button class="empty-cart" onclick="emptyCart()">EMPTY CART</button>
+
+    <!-- If you press this button, a message will emerge -->
+
+    <button class="buyout-cart" onclick="alert('You have successfully purchased, Thank you!')">PURCHASE</button>
+
+    <div id="cart">Your Shoes:</div>
+  </div>
+  <!-- This is the footer -->
+
+
+
+
+</body>
+
+</html>

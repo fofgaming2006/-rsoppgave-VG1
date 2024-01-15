@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/ab86e6e481.js" crossorigin="anonymous"></script>
+  <title>Skohubben AS</title>
+</head>
+
+<body>
+
+  <!-- Menu bar -->
+
+  <header>
+    <div class="logo-box"><a class="Homepage--" href="index.html" class="logo">
+        <img class="logo-size" src="bilder/Shoehub-AS.png" alt=""></a></div>
+    <div class="header-menu">
+      <a class="Homepage--" href="men.html">Men</a>
+      <a class="Homepage--" href="women.html">Women</a>
+      <a class="Homepage--" href="junior.html">Junior</a>
+    </div>
+
+    <div class="icons">
+      <a class="social--" href=""><i class="fa fa-heart"></i></a>
+      <a class="social--" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+    </div>
+  </header>
+
+  <!----- The second shoe product ----->
+
+  <div class="product-picture-1">
+    <img src="bilder/mca-university.png" alt=""></img>
+  </div>
+  <div class="product1-div">
+    <div class="text1">
+      <p class="product1">NIKE</p>
+      <h2 class="triple-red-title">MCA University Blue</h2>
+      <p class="shoe-price1">4.375 NOK</p>
+      <div class="shoe_size">
+        <label for="shoe-size">size:</label>
+        <select id="shoe-size" name="shoe-size">
+          <option value="40">EU 40</option>
+          <option value="41">EU 41</option>
+          <option value="42">EU 42</option>
+          <option value="43">EU 43</option>
+          <option value="44">EU 44</option>
+          <option value="45">EU 45</option>
+        </select>
+      </div>
+      <div class="cart-div ">
+        <button onclick="buyShoe2(), alert('Your product has been added to the cart') " class="add-to-cart2">ADD TO CART</button>
+      </div>
+    </div>
+  </div>
+
+</body>

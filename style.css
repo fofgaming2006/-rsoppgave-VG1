@@ -1,0 +1,782 @@
+/*For the body*/
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+/*Background color body */
+.body {
+  background-color: rgb(247, 240, 240);
+  overflow-x: hidden;
+  margin: auto;
+}
+
+/* Videobackground */
+#ajhoops {
+  background-size: cover;
+  position: absolute;
+  background-image: url(bilder/tony-background.png);
+  height: 130%;
+  margin-top: -68vh;
+  width: 100%;
+
+  z-index: -1;
+}
+
+/* My header menu */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #090909;
+  padding: 2rem 12%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 35px;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+  z-index: 3;
+}
+
+.logo-box {
+  margin-left: -12%
+}
+
+.logo-size {
+  height: 8vh;
+}
+
+/* This is the menu bar */
+.Homepage-- {
+  margin-left: 100px;
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 21px;
+}
+
+.social-- {
+  margin-left: 15px;
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  padding: .5rem 1rem;
+}
+
+/*Intro for my website*/
+.title {
+  margin-top: 40vh;
+  margin-left: 10vw;
+  height: 60vh;
+  overflow-y: scroll;
+  overflow: hidden;
+}
+
+.intro1 {
+  font-family: prohibition;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 85px;
+  line-height: 35px;
+}
+
+.intro2 {
+  font-family: prohibition;
+  color: white;
+  opacity: 65%;
+  font-size: 35px;
+  line-height: 30px;
+}
+
+/*Button for my shoe collection*/
+button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: 20px;
+  font-family: prohibition;
+}
+
+button.learn-more {
+  width: 18rem;
+  height: auto;
+}
+
+button.learn-more .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin-top: 5px;
+  width: 3rem;
+  height: 3rem;
+  background: #000000;
+  border-radius: 1.625rem;
+}
+
+button.learn-more .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+}
+
+button.learn-more .circle .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+}
+
+button.learn-more .circle .icon.arrow::before {
+  position: absolute;
+  content: "";
+  top: -0.29rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  transform: rotate(45deg);
+}
+
+button.learn-more .button-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 1.85rem;
+  color: #282936;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+button:hover .circle {
+  width: 100%;
+}
+
+button:hover .circle .icon.arrow {
+  background: #fff;
+  transform: translate(1rem, 0);
+}
+
+button:hover .button-text {
+  color: #fff;
+}
+
+
+
+/*Title for the shoe brands*/
+.nike-title {
+  margin-left: 7vw;
+}
+
+.air-force1 {
+  font-family: prohibition;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 50px;
+}
+
+.jordan-title {
+  margin-top: 7vh;
+  margin-left: 7vw;
+}
+
+.jordan1 {
+  font-family: prohibition;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 50px;
+}
+
+.brands {
+  font-family: prohibition;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 50px;
+}
+
+/*Pictures of the NBA Greats*/
+
+.nba-color1 {
+  background-color: #0e0d0d;
+}
+
+.mj-color {
+  background-color: #0e0d0d;
+}
+
+.bball-logoes {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nba-model-pictures img {
+  transition: 0.2s;
+}
+
+.nba-model-pictures {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nba-model-pictures :hover {
+  transform: scale(105%);
+}
+
+.nba-players {
+  display: flex;
+  justify-content: space-evenly;
+  line-height: 2;
+}
+
+.nba-player1 {
+  font-family: prohibition;
+  font-style: italic;
+  font-size: 35px;
+  margin-top: 5px;
+  color: #000;
+}
+
+.nba-player2 {
+  font-family: prohibition;
+  font-style: italic;
+  font-size: 35px;
+  margin-top: 5px;
+  color: #000;
+}
+
+.nba-player3 {
+  font-family: prohibition;
+  font-style: italic;
+  font-size: 35px;
+  margin-top: 5px;
+  color: #000;
+}
+
+.nba-players img {
+  transition: 0.3s;
+  box-shadow: 15px 15px 10px #3f3b3b;
+}
+
+.nba-players :hover {
+  transform: scale(105%);
+}
+
+/* These are pictures of me*/
+.tony-color1 {
+  background-color: #;
+}
+
+.tony-pictures {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.tony-pictures img {
+  transition: 0.2s;
+  box-shadow: 15px 15px 5px #504d4d;
+}
+
+.tony-pictures :hover {
+  transform: scale(105%);
+}
+
+/* The first shoe collection (Nike)*/
+.my-shoe-collections1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-left: -25px;
+  margin-top: 120px;
+}
+
+.my-shoe-collections-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-left: -25px;
+}
+
+/* The second shoe collection (Jordan)*/
+.my-shoe-collections2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+
+.jordan-collections2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.my-shoe-collections {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 190px;
+  margin-left: -25px;
+}
+
+.jordan-collections2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-left: -25px;
+  margin-top: 120px;
+}
+
+/*Making animations for the pictures*/
+.bball-shoes img {
+  background-color: rgb(241, 236, 236);
+  transition: 0.2s;
+}
+
+.bball-shoes img:hover {
+  transform: scale(110%);
+}
+
+.bball-shoes1 img:hover {
+  height: 200px;
+  transform: scale(120%);
+}
+
+.bball-shoes1 img {
+  height: 200px;
+  transition: 0.2s;
+}
+
+.bball-shoes2 img {
+  background-color: rgb(241, 236, 236);
+  transition: 0.2s;
+}
+
+.bball-shoes2 img:hover {
+  transform: scale(110%);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.text-wrapper {
+  padding-left: 10px;
+}
+
+.no-title {
+  text-decoration: none;
+}
+
+.nike {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+}
+
+.adidas {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.jordan {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+}
+
+.price1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/*This is the like button (with animations too)*/
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: transparent;
+  position: relative;
+}
+
+.btn::after {
+  content: 'Favorite';
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  font-size: 15px;
+  color: black;
+  font-family: prohibition;
+  font-weight: 750;
+  opacity: 0;
+  visibility: hidden;
+  transition: .2s linear;
+  top: 115%;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  transition: .2s linear;
+}
+
+.icon path {
+  fill: black;
+  transition: .2s linear;
+}
+
+.btn:hover>.icon {
+  transform: scale(1.2);
+}
+
+.btn:hover>.icon path {
+  fill: rgb(177, 139, 189);
+}
+
+.btn:hover::after {
+  visibility: visible;
+  opacity: 1;
+  top: 105%;
+}
+
+/*The Product Site*/
+.product1-div {
+  display: flex;
+  justify-content: right;
+  margin-top: -20%;
+  margin-right: 30%;
+  line-height: 6vh;
+}
+
+.text1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+.shoe-price1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: #D2B30E;
+  font-weight: 750;
+}
+
+.triple-red-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+}
+
+.shoe_size {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.product-picture-1 {
+  display: flex;
+  justify-content: left;
+  margin-top: 20%;
+  margin-left: 20%;
+}
+
+/*For the shopping cart*/
+.cart-buttons {
+  margin-top: 7vh;
+}
+
+.add-to-cart {
+  font-size: 19px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid #0e0d0d;
+  background-color: #000;
+  padding: 10px;
+  width: 90%;
+  letter-spacing: 5px;
+}
+
+.add-to-cart2 {
+  font-size: 19px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid #0e0d0d;
+  background-color: #000;
+  padding: 10px;
+  width: 70%;
+  letter-spacing: 5px;
+}
+
+.cart-box {
+  margin-top: 15vh;
+  margin-left: 20vh;
+}
+
+.cart-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  font-weight: lighter;
+  letter-spacing: 0.1vw;
+}
+
+.show-cart {
+  font-size: 19px;
+  color: #fff;
+  font-family: 'nunito';
+  border: 2px solid #0e0d0d;
+  background-color: #000;
+  margin-left: 10%;
+  padding: 10px;
+  letter-spacing: 2px;
+}
+
+.empty-cart {
+  font-size: 19px;
+  color: #fff;
+  font-family: 'nunito';
+  border: 2px solid #0e0d0d;
+  background-color: #000;
+  margin-left: 1%;
+  padding: 10px;
+  letter-spacing: 2px;
+}
+
+.buyout-cart {
+  font-size: 19px;
+  color: #fff;
+  font-family: 'nunito';
+  border: 2px solid #0e0d0d;
+  background-color: #000;
+  margin-left: 50%;
+  padding: 10px;
+  letter-spacing: 2px;
+}
+
+#cart {
+  margin-top: 5vh;
+  margin-left: 10%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+/*Image product for the cart site linked to javascript*/
+.prod1 {
+  height: 15vh;
+  width: 11%;
+}
+
+.prod2 {
+  height: 15vh;
+  width: 11%;
+  margin-top: 5vh;
+}
+
+/*For choosing the shoe size*/
+select {
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f7f0f0;
+}
+
+option {
+  font-size: 16px;
+}
+
+/*The Portfolio*/
+.work-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+}
+
+.work-title {
+  font-family: prohibition;
+  font-size: 45px;
+  font-weight: lighter;
+  letter-spacing: 0.1px;
+}
+
+.portfolio {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2%;
+}
+
+.portfolio {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2%;
+}
+
+.portfolio2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2%;
+}
+
+.portfolio3 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2%;
+  padding-right: 8%;
+}
+
+.portfolio-title {
+  font-family: prohibition;
+  font-style: italic;
+  font-size: 30px;
+  margin-top: 2%;
+  color: #000000;
+}
+
+/*For about us site*/
+.about-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 15vh;
+}
+
+.story-box {
+  display: flex;
+  text-align: center;
+  flex-direction: column-reverse;
+}
+
+.aboutus-title {
+  font-family: prohibition;
+  font-size: 50px;
+  color: #000000;
+}
+
+.story-picture {
+  display: flex;
+  justify-content: center;
+}
+
+.story-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.4px;
+  color: #505050;
+  line-height: 3vh;
+}
+
+.story-box2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.4px;
+  color: #505050;
+  line-height: 3vh;
+}
+
+/*For The Footer*/
+footer {
+  border: 2px solid #0e0d0d;
+  background-color: #0e0d0d;
+  position: relative;
+  height: 290px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.footer-cart {
+  position: absolute;
+}
+
+.icons2 {
+  margin-top: 25px;
+  text-align: end;
+  display: flex;
+  justify-content: end;
+  margin-right: 300px;
+}
+
+.social2 {
+  margin-left: 50px;
+  text-decoration: none;
+  color: white;
+  font-family: prohibition;
+  font-size: 20px;
+}
+
+.fa-brands {
+  font-size: 35px;
+}
+
+.links-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5vh;
+  margin-left: 10%;
+}
+
+.contact-us-link {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  width: 4.3vw;
+}
+
+.designmanual-link {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  width: 5.4vw;
+}
+
+.portfolio-link {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  width: 3.5vw;
+}
+
+/*Copyright*/
+.credits {
+  display: flex;
+  justify-content: center;
+}
+
+.copyright {
+  height: 2vh;
+}
+
+.copyright-font {
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.5px;
+}
+
+.credit-font {
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.5px;
+}
+
