@@ -1,0 +1,155 @@
+/* Design for hjemmesiden */
+.Aktiv {
+    color: white;
+    font-family: 'Century gothic';
+}
+
+/* Design for Oppsettsiden */
+.Ikke_Aktiv {
+    color: white;
+    font-family: 'Century gothic';
+}
+
+/* Design for overskrift */
+header {
+    background-color: #000000;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 101%;
+    height: 175px;
+    
+}
+
+/* Design for menybaren */
+.Meny {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding: 15px;
+    margin-top: 0px;
+    height: 80px;
+    flex-wrap: wrap;
+    margin-right: 265px;
+
+}
+
+/* Logoen til header */
+#panda {
+    height: 160px;
+    
+}
+
+/* Her er bakgrunnsbilde til hjemmesiden */
+#index {
+    background-image: url("image/Lacrosse_2B.jpg");
+    background-size: 100%;
+    background-color: black;
+}
+
+/* Her er Bakgrunnsbilde til Oppsett siden */
+#infoside {
+    background-image: url("image/Lacrosse_1B.jpg");
+    background-size: 122%;
+    background-color: black;
+}
+
+/* Justering for bodyen */
+.Body {
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    margin-top: 200px;
+
+}
+
+/* Justering for text */
+.Tekst {
+    font-family: 'century gothic';
+    color: white;
+}
+
+/* Design for text */
+p {
+   font-family: 'candara';
+   text-align: bottom;
+    margin-left: auto;
+    margin-right: auto;
+    width: 32%;
+   color: white;
+   font-size: xx-large;
+
+}
+
+/* Design for første overskrift */
+ h1 {
+    color: white;
+    font-family: 'century gothic';
+    text-align: center;
+    font-size: xxx-large;
+    
+ }
+
+ /* Design for andre overskrift */
+h2 {
+    font-family: 'century gothic';
+   text-align: bottom;
+   color: white;
+   font-size: xx-large;
+   text-align: center;
+
+}
+
+/* Justering for kontaktinfo til laget */
+ #kontakt {
+    font-family: 'candara';
+   text-align: bottom;
+   color: white;
+   font-size: x-large;
+   text-align: center;
+ }
+ 
+ /* Justering/Design til tabellen */
+ td, th {
+    border: 1px solid;
+    padding: 10px;
+    font-family: 'Candara';
+    font-size: x-large;
+  }
+  
+  /* Justering for tabellen */
+  table {
+    width: 20%;
+    border-collapse: collapse;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Justering for treningstider */
+#trening {
+    text-align: center;
+    justify-content: center;
+}
+
+/* Justering/Design for tredje overskrift */
+h3 {
+    font-family: 'century gothic';
+    text-align: bottom;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+}
+
+/* Justering for nyttige sider */
+li {
+    text-align: center;
+    font-family: 'century gothic';
+    text-align: bottom;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    text-align: center;
+}
+
